@@ -30,5 +30,8 @@ public class UserController{
 		boolean loginResult = userService.isExist(user);
 		map.put("loginResult", loginResult);
 		return map;
+		
+		
+		
 	}
 }
